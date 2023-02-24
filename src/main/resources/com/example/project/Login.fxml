@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="507.0" prefWidth="600.0" style="-fx-background-radius: 50 50 50 50; -fx-background-color: #E5E5E5;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.LoginController">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="180.0" prefWidth="600.0" style="-fx-background-radius: 50 50 0 0; -fx-background-color: #192428;">
+         <children>
+            <Label layoutX="75.0" layoutY="85.0" text="Personal Finance System" textFill="#ebe3e3">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="514.0" layoutY="32.0" minWidth="30.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: #192428;" text="x" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Label layoutX="74.0" layoutY="229.0" text="Username">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="205.0" layoutY="224.0" prefHeight="42.0" prefWidth="308.0" style="-fx-background-color: #E5E5E5; -fx-border-color: #192428;" />
+      <Label layoutX="74.0" layoutY="302.0" text="Password">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="78.0" layoutY="386.0" mnemonicParsing="false" onAction="#login" prefHeight="42.0" prefWidth="444.0" stylesheets="@login.css" text="Login" />
+      <Label fx:id="regLabel" layoutX="235.0" layoutY="445.0" onMouseClicked="#register" stylesheets="@login.css" text="Create a new account" textFill="#192428" />
+      <PasswordField fx:id="passwordField" layoutX="205.0" layoutY="297.0" prefHeight="42.0" prefWidth="308.0" style="-fx-background-color: #E5E5E5; -fx-border-color: #192428;" />
+   </children>
+</AnchorPane>

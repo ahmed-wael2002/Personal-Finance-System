@@ -1,0 +1,13 @@
+.button{
+    -fx-background-color : TRANSPARENT;
+    -fx-text-fill : BLACK;
+    -fx-background-radius : 20 20 20 20;
+}
+
+.button:hover{
+    -fx-background-color : #A9A9A9;
+}
+
+#regLabel : hover {
+    -fx-text-fill : BLUE;
+}

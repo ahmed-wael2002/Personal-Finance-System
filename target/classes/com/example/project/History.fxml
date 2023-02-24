@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="532.0" prefWidth="697.0" style="-fx-background-radius: 50 50 50 50;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HistoryController">
+   <children>
+      <TableView fx:id="table" layoutX="-1.0" layoutY="155.0" prefHeight="320.0" prefWidth="707.0">
+        <columns>
+          <TableColumn fx:id="sourceColumn" prefWidth="150.0" text="Souce" />
+          <TableColumn fx:id="amountColumn" minWidth="0.0" prefWidth="117.0" text="Date" />
+            <TableColumn fx:id="dateColumn" minWidth="0.0" prefWidth="118.0" text="Amount" />
+        </columns>
+      </TableView>
+      <Pane prefHeight="155.0" prefWidth="707.0" style="-fx-background-color: #192428; -fx-background-radius: 50 50 0 0;">
+         <children>
+            <Label layoutX="60.0" layoutY="57.0" text="Transactions History" textFill="#e5e5e5">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="658.0" layoutY="32.0" onMouseClicked="#closeButtonPressed" text="×" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="573.0" prefWidth="558.0" style="-fx-background-color: #e5e5e5; -fx-background-radius: 50 50 50 50;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.NewWalletController">
+   <children>
+      <Pane layoutX="-4.0" layoutY="-4.0" prefHeight="154.0" prefWidth="651.0" style="-fx-background-color: #192428; -fx-background-radius: 50 50 0 0;">
+         <children>
+            <Label fx:id="label" layoutX="100.0" layoutY="66.0" text="Create New Wallet" textFill="#dadada">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Label>
+            <Button layoutX="562.0" layoutY="40.0" minWidth="32.0" mnemonicParsing="false" onAction="#closeButtonPressed" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #192428;" stylesheets="@transactionScreen.css" text="X" textFill="WHITE" />
+         </children></Pane>
+      <TextField fx:id="nameField" accessibleText="Integer" layoutX="268.0" layoutY="181.0" prefHeight="44.0" prefWidth="275.0" promptText="eg. Salary" style="-fx-background-color: transparent; -fx-border-color: #192428;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Slider fx:id="slider" blockIncrement="1000.0" layoutX="97.0" layoutY="347.0" majorTickUnit="1000.0" max="10000.0" prefHeight="44.0" prefWidth="456.0" showTickLabels="true" />
+      <TextField fx:id="balanceField" accessibleText="Integer" layoutX="268.0" layoutY="252.0" prefHeight="44.0" prefWidth="275.0" promptText="eg. 18,000 LE" style="-fx-background-color: transparent; -fx-border-color: #192428;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="104.0" layoutY="189.0" text="Account Name">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="260.0" text="Initial Balance">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="98.0" layoutY="439.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="30.0" prefWidth="456.0" text="Create" />
+   </children>
+</AnchorPane>

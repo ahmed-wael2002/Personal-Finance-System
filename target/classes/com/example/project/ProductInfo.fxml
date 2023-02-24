@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="715.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="177.0" layoutY="48.0" text="Personal Finance System">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="111.0" text="Software Engineering (1) - CSE334 Major Task ">
+         <font>
+            <Font name="System Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="334.0" layoutY="186.0" text="Submitted to:">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="226.0" text="Dr, Gamal">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="318.0" layoutY="260.0" text="Eng, Sally Shaker">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="334.0" layoutY="316.0" text="Submitted by:">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="350.0" text="Ahmed Wael Ibrahim">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="308.0" layoutY="384.0" text="Osama Saad Farouk">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="418.0" text="Ahmed Osama Ashour">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="452.0" text="Ziad Amer">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="301.0" layoutY="486.0" text="Mohamed Maghraby">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="520.0" text="Abdo Salah">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="328.0" layoutY="554.0" text="Kareem Ramzi">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="248.0" layoutY="591.0" text="Ahmed Sameh Mahmoud Nabieh">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

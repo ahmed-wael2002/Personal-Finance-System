@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="549.0" prefWidth="600.0" style="-fx-background-color: #E5E5E5; -fx-background-radius: 50 50 50 50;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.RegisterController">
+   <children>
+      <Pane prefHeight="177.0" prefWidth="600.0" style="-fx-background-color: #192428; -fx-background-radius: 50 50 0 0;">
+         <children>
+            <Label layoutX="541.0" layoutY="28.0" onMouseClicked="#closeWindow" text="x" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="71.0" text="Register" textFill="#cdcdcd">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="86.0" layoutY="219.0" text="First name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstNameField" layoutX="195.0" layoutY="219.0" prefHeight="26.0" prefWidth="318.0" />
+      <Label layoutX="86.0" layoutY="260.0" text="Last name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lastNameField" layoutX="195.0" layoutY="260.0" prefHeight="26.0" prefWidth="318.0" />
+      <Label layoutX="86.0" layoutY="298.0" text="Username">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="195.0" layoutY="298.0" prefHeight="26.0" prefWidth="318.0" />
+      <Label layoutX="86.0" layoutY="339.0" text="Password">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="passwordField" layoutX="195.0" layoutY="339.0" prefHeight="26.0" prefWidth="318.0" />
+      <Button layoutX="87.0" layoutY="417.0" mnemonicParsing="false" onAction="#register" prefHeight="52.0" prefWidth="426.0" text="Register">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
